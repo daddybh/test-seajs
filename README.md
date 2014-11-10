@@ -54,3 +54,22 @@ grunt配置如下:
                 }
         }
 ```
+
+
+
+## 问题解决 ##
+
+经过同事帮助 此问题解决
+
+问题在于我使用require的时候，基于src目录
+
+实际上需要基于`当前文件`
+
+因此d.js中require c.js必须写成
+```
+    define(function(require, exports, module){
+        var b = require('./b');
+        exports.cc = "cc";
+    });
+```
+
