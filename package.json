@@ -1,0 +1,16 @@
+{
+  "name": "test-seajs",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt-cmd-transport": "~0.4.1",
+    "grunt-cmd-concat": "~0.2.7",
+    "grunt": "~0.4.5"
+  }
+}
